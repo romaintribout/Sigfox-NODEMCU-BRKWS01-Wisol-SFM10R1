@@ -317,6 +317,6 @@ Download it and run it, for exemple in ubuntu
 ```bash
 ./ngrok http 5000 -region eu
 ```
-You can see a public URL in your terminal
+For example, you can see a public URL in your terminal
 
 ![Sigfox Backend](doc/ngrok.png)
