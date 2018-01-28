@@ -297,7 +297,7 @@ String sendMessage(uint8_t sigfoxMsg[], int bufferSize) {
 }
 ```
 
-##See your messages in Sigfox Backend
+## See your messages in Sigfox Backend
 
 Go to https://backend.sigfox.com and login
 
