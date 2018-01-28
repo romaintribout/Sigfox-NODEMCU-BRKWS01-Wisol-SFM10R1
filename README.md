@@ -11,12 +11,18 @@ Learn to send a Sigfox message with a NodeMCU (ESP8266) and BRKWS01 (Sigfox Wiso
 * Sigfox subscription
 * [Sigfox Backend Account](https://backend.sigfox.com/)
 
-## Pinout
-### NodeMCU
+### Software
+* [Arduino IDE](https://www.arduino.cc/en/Main/Software)
+* [ESP8266 board and lib for Arduino IDE](https://github.com/esp8266/Arduino)
+
+## Hardware pinout
+* ### NodeMCU
 ![NodeMCU](doc/nodemcu_pins.png)
 
-### SNOC Breakout Board - Sigfox BRKWS01
+* ### SNOC Breakout Board - Sigfox BRKWS01
 ![SNOC](doc/BRKWS01_PCB_pinout.png)
+
+##
 
 
 
