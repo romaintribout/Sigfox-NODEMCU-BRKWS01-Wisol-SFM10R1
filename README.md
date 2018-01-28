@@ -319,4 +319,10 @@ Download it and run it, for exemple in ubuntu
 ```
 For example, you can see a public URL in your terminal
 
-![Sigfox Backend](doc/ngrok.png)
+![ngrok](doc/ngrok.png)
+
+### Configure Sigfox backend
+
+![ngrok](doc/backend-step1.png)
+![ngrok](doc/backend-step2.png)
+![ngrok](doc/backend-step3.png)
