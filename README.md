@@ -1,0 +1,1 @@
+# Sigfox-NODEMCU-BRKWS01-Wisol-SFM10R1
