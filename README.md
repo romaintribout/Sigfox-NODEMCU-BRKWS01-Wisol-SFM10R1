@@ -1,6 +1,6 @@
-# Message with NODEMCU (ESP8266) and BRKWS01 (Sigfox Wisol SFM10R1)
+# Message with NODEMCU (ESP8266) and BRKWS01 (Sigfox Wisol SFM10R1) to your Flask backend
 
-Learn to send a Sigfox message with a NodeMCU (ESP8266) and BRKWS01 (Sigfox Wisol module - SFM10R1) - Backend Sigfox
+Learn to send a Sigfox message with a NodeMCU (ESP8266) and BRKWS01 (Sigfox Wisol module - SFM10R1) - to your Flask backend
 
 ## Requirements
 ### Hardware 
@@ -297,10 +297,12 @@ String sendMessage(uint8_t sigfoxMsg[], int bufferSize) {
 }
 ```
 
-## See your messages in Sigfox Backend
+## See your messages in the Sigfox Backend
 
-Go to https://backend.sigfox.com and login
+Go to https://backend.sigfox.com and login.
 
-In the device list, find your device using the device ID, and click on it
+In the device list, find your device using the device ID, and click on it.
 
 ![Sigfox Backend](doc/capture2.png)
+
+## Forward messages to your own Flask backend
