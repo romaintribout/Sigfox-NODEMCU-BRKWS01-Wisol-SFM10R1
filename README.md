@@ -335,3 +335,32 @@ For example, you can see a public URL in your terminal
 ![ngrok](doc/backend-step3.png)
 
 ### Create your backend in python Flask
+Install Flask
+```
+sudo pip install Flask
+
+or
+
+sudo pip3 install Flask
+```
+
+And run this code
+```python
+from flask import Flask
+from flask import request
+from flask import jsonify
+
+app = Flask(__name__)
+
+
+@app.route("/", methods=['POST'])
+def data():
+	body = request.json
+	if body == None:
+		return "not a json"
+	if 'data' in body.keys():
+		print(body['data'])
+	return jsonify(body) 
+
+app.run(debug=True)
+```
