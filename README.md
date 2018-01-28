@@ -223,6 +223,8 @@ void loop () {
   sigfoxMsg[3]=0x67;
   sigfoxMsg[4]=0x89;
   Serial.println("Send message: " + sendMessage(sigfoxMsg, 5));
+
+  // Send every 10 minutes
   delay(60000);
 }
 
