@@ -131,6 +131,7 @@ You must get this result:
 ## Send your first Sigfox message 
 
 Now we will send our first sigfox messages. With the sigfox protocol, we can send messages of 12 bytes.
+
 Due to the reglementation, in the ETSI zone, an object cannot emit more than 1% of the time hourly
 
 * 1 hour = 3600 sec
@@ -295,3 +296,5 @@ String sendMessage(uint8_t sigfoxMsg[], int bufferSize) {
   return status;
 }
 ```
+
+![Sigfox Backend](doc/capture2.png)
