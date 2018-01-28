@@ -297,4 +297,10 @@ String sendMessage(uint8_t sigfoxMsg[], int bufferSize) {
 }
 ```
 
+##See your messages in Sigfox Backend
+
+Go to https://backend.sigfox.com and login
+
+In the device list, find your device using the device ID, and click on it
+
 ![Sigfox Backend](doc/capture2.png)
