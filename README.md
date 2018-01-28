@@ -323,6 +323,15 @@ For example, you can see a public URL in your terminal
 
 ### Configure Sigfox backend
 
+1. On the device list, find your device using the device ID, click on device type name
+
+2. Click on CALLBACKS menu, then click to new
 ![ngrok](doc/backend-step1.png)
+
+3. Create "Custom callback"
 ![ngrok](doc/backend-step2.png)
+
+4. Configure with your URL (from ngrok for example)
 ![ngrok](doc/backend-step3.png)
+
+### Create your backend in python Flask
