@@ -125,7 +125,7 @@ String getPAC (){
 ```
 
 You must get this result:
-![NodeMCU](doc/capture1.png)
+![Serial Monitor](doc/capture1.png)
 
 
 ## Send your first Sigfox message 
