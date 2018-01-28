@@ -24,7 +24,7 @@ Learn to send a Sigfox message with a NodeMCU (ESP8266) and BRKWS01 (Sigfox Wiso
 
 
 
-## Get WISOL module ID and PAC
+## Get SigFox modem module ID and PAC number
 
 To communicate with the SigFox modem, we use UART, and you have to send AT commands to the SigFox modem,
 
@@ -124,4 +124,8 @@ String getPAC (){
 }
 ```
 
+You must get this result:
+![NodeMCU](doc/capture1.png)
 
+
+## Send your first Sigfox message 
