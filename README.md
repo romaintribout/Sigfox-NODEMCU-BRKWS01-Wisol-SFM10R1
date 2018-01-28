@@ -22,7 +22,13 @@ Learn to send a Sigfox message with a NodeMCU (ESP8266) and BRKWS01 (Sigfox Wiso
 * ### SNOC Breakout Board - Sigfox BRKWS01
 ![SNOC](doc/BRKWS01_PCB_pinout.png)
 
+## Wiring NodeMCU with BRKWS01
+BRKWS01 use UART, so we will use Software Serial with the NodeMCU. With pin D7 (GPIO 13) and pin D8 (GPIO15).
 
+* Pin D7 - GPIO 13 - Rx
+* Pin D8 - GPIO 15 - Tx
+
+You must wire NodeMCU Rx with BRKWS01 Tx, and NodeMCU Tx with BRKWS01 Rx.
 
 ## Get SigFox modem module ID and PAC number
 
