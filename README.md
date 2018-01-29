@@ -1,6 +1,7 @@
 # Message with NODEMCU (ESP8266) and BRKWS01 (Sigfox Wisol SFM10R1) to your python Flask backend
 
-Learn to send a Sigfox message with a NodeMCU (ESP8266) and BRKWS01 (Sigfox Wisol module - SFM10R1) - to your python Flask backend
+Learn to send a Sigfox message with a NodeMCU (ESP8266) and BRKWS01 (Sigfox Wisol module - SFM10R1) - to your python Flask backend. Inspired by louis moreau's Github: https://github.com/luisomoreau/arduinoUno-wisol
+
 
 ## Requirements
 ### Hardware 
